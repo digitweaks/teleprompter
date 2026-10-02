@@ -13,7 +13,15 @@ struct SettingsPanelView: View {
 
     private static let allowedTypes: [UTType] = {
         var t: [UTType] = [.plainText]
-        if let md = UTType(filenameExtension: "md") { t.append(md) }
+
+        if let md = UTType(filenameExtension: "md") {
+            t.append(md)
+        }
+
+        if let rtf = UTType(filenameExtension: "rtf") {
+            t.append(rtf)
+        }
+
         return t
     }()
 
