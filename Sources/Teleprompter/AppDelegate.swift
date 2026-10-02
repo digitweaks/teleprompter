@@ -10,7 +10,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private(set) var viewModel: TeleprompterViewModel!
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        NSApp.setActivationPolicy(.accessory)   // no Dock icon, no Cmd+Tab entry
+        NSApp.setActivationPolicy(.regular)   // no Dock icon, no Cmd+Tab entry
 
         viewModel = TeleprompterViewModel()
         viewModel.loadSettings()
