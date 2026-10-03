@@ -5,7 +5,7 @@ A native macOS teleprompter that runs as a floating overlay **completely invisib
 ## Features
 
 - **Screen-capture invisible** — `NSWindow.sharingType = .none` keeps the overlay off every shared screen
-- **Menu-bar only** — no Dock icon, no Cmd+Tab entry; lives quietly in the menu bar
+- **Menu-bar and Dock icon** — Dock icon,Cmd+Tab entry; plus lives quietly in the menu bar
 - **Rich Markdown rendering** — headings scale visually (H1 = 1.6×, H2 = 1.35×…), bold and italic rendered inline
 - **Smooth auto-scroll** — 60 Hz, time-delta based (constant speed regardless of frame drops)
 - **Manual scroll** — trackpad or mouse wheel with per-device sensitivity
@@ -13,6 +13,7 @@ A native macOS teleprompter that runs as a floating overlay **completely invisib
 - **Resizable** — drag the bottom-right corner handle to any size
 - **Draggable** — click and drag anywhere on the background to reposition
 - **Keyboard shortcuts** (click the overlay to focus it first):
+- **Support for TXT and RTF file extensions
 
   | Key | Action |
   |-----|--------|
