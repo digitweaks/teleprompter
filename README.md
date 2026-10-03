@@ -13,7 +13,7 @@ A native macOS teleprompter that runs as a floating overlay **completely invisib
 - **Resizable** — drag the bottom-right corner handle to any size
 - **Draggable** — click and drag anywhere on the background to reposition
 - **Keyboard shortcuts** (click the overlay to focus it first):
-- **Support for TXT and RTF file extensions
+- Support for TXT and RTF file extensions
 
   | Key | Action |
   |-----|--------|
