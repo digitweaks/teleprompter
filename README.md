@@ -1,11 +1,11 @@
 # Teleprompter
 
-A native macOS teleprompter that runs as a floating overlay **completely invisible to Zoom, Teams, Google Meet, OBS, and every other screen-sharing tool**.
+A native macOS teleprompter that runs as a floating overlay **completely invisible to Zoom, Teams, Google Meet, OBS, and every other screen-sharing tool with support for TXT/RTF files. This version includes a Dock icon**.
 
 ## Features
 
 - **Screen-capture invisible** — `NSWindow.sharingType = .none` keeps the overlay off every shared screen
-- **Menu-bar and Dock icon** — Dock icon,Cmd+Tab entry; plus lives quietly in the menu bar
+- **Menu-bar and Dock icon** — Dock icon, Cmd+Tab entry; plus lives quietly in the menu bar
 - **Rich Markdown rendering** — headings scale visually (H1 = 1.6×, H2 = 1.35×…), bold and italic rendered inline
 - **Smooth auto-scroll** — 60 Hz, time-delta based (constant speed regardless of frame drops)
 - **Manual scroll** — trackpad or mouse wheel with per-device sensitivity
@@ -13,7 +13,7 @@ A native macOS teleprompter that runs as a floating overlay **completely invisib
 - **Resizable** — drag the bottom-right corner handle to any size
 - **Draggable** — click and drag anywhere on the background to reposition
 - **Keyboard shortcuts** (click the overlay to focus it first):
-- Support for TXT and RTF file extensions
+- **Support for TXT and RTF file extensions**
 
   | Key | Action |
   |-----|--------|
